@@ -124,7 +124,7 @@ section .container {
     margin-top: 20px;
 }
 .comprar-jogos .gratis button {
-    margin-top: 20px;   
+    margin-top: 26px;   
 }
 .comprar-jogos:hover {
     box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.582);
