@@ -1,0 +1,244 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: #1b1b1b;
+    font-family: "Poetsen One", sans-serif;
+}
+header {
+    background: rgba(51, 51, 51, 0.6);
+    padding: 16px 0px;
+    font-family: "Roboto", sans-serif;
+}
+header .container {  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0px auto;  
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+nav li a:hover {
+    color: #ffffffda;
+    text-decoration: underline;
+}
+.carrinho {
+    cursor: pointer;
+}
+
+.logo-cod .container img {
+    margin: 50px;
+    width: 1000px;
+    height: 600px;
+    border-radius: 8px;
+    border: solid 1px rgba(255, 255, 255, 0.33);
+}
+.logo-cod .container img:hover {
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.582);    
+}
+
+section h2, hr {
+    color: #dadde0;  
+    margin-left: 200px;
+    margin-bottom: 10px;
+    width: 1300px;
+}
+section h3 {
+    color: #b7babd;
+    text-align: center;
+    margin-bottom: 30px;
+}
+section .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comprar-jogos img {
+    width: 100%;
+    border-radius: 8px 8px 0px 0px;
+}
+.comprar-jogos {
+    font-family: "Poetsen One", sans-serif; 
+    width: 252px;
+    background-color: #24272a ;
+    border-radius: 8px;
+    border: solid 1px rgba(255, 255, 255, 0.093);
+    cursor: pointer;
+}
+
+.comprar-jogos p {
+    font-size: 12px;
+    color: #888b8e;
+    
+}
+.comprar-jogos h4 {
+    font-size: 15px;
+    color: #dadde0;
+}
+.comprar-jogos p, h4, button {
+    margin: 5px 10px;
+    
+}
+.comprar-jogos .valor p {
+    color: #b7babd;
+    text-align: right;
+    margin: 0px 10px;
+}
+.comprar-jogos .valor .preço p {
+    color: #dadde0;
+    font-size: 18px;
+    font-weight: bold;
+}
+.comprar-jogos button {
+    background-color: #3b9646;
+    color: #dadde0;
+    margin: 0px;
+    width: 100%;
+    margin-top: 19px;
+    padding: 8px;
+    border-radius: 0px 0px 8px 8px;
+    border: none;
+    cursor: pointer;
+}
+.comprar-jogos button:hover {
+    background-color: #3b9646c8;
+}
+.comprar-jogos .gratis p {
+    color: #dadde0;
+    font-weight: bold;
+    text-align: right;
+    padding: 0px;
+    margin-top: 20px;
+}
+.comprar-jogos .gratis button {
+    margin-top: 20px;   
+}
+.comprar-jogos:hover {
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.582);
+}
+
+#sobre h2 {
+    margin-top: 50px;
+}
+#sobre .container img {
+    height: 180px;
+}
+
+#sobre .container {   
+    color: #dadde0;
+    background-color: #dadde03d;
+    width: 500px;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 8px;
+    border: solid 1px rgba(255, 255, 255, 0.221);
+}
+
+#fale-conosco .container {
+    display: flex;
+    justify-content: space-between;
+}
+#fale-conosco .container img {
+    height: 400px;
+    margin-top: 50px;
+}
+#fale-conosco .container .title img {
+    height: 15px;
+    margin-top: 0px;
+}
+#fale-conosco .container .title p {
+    text-align: center;
+}
+#fale-conosco .container .title h3 {
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    color: #dadde0;
+}
+#fale-conosco h2 {
+    margin-top: 50px;
+}
+#fale-conosco .form-list {
+    background: linear-gradient(to right top,#090200, #7b0202,  #fd0303 );
+    width: 360px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border-radius: 8px;
+}
+#fale-conosco .form-list:hover {
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.582);
+}
+#fale-conosco .form-list input, textarea, button {
+    display: block;
+    width: 320px;
+    margin: 20px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: #dadde0;
+}
+#fale-conosco .form-list form textarea {
+    resize: none;
+    height: 180px;
+}
+#fale-conosco .form-list #button {
+    cursor: pointer;
+}
+#fale-conosco .form-list #button:hover {
+    background-color: #888b8e;
+}
+footer #nos {
+    background-color: #24272a;
+    padding: 20px;
+    color: #fff;
+    margin: 0px;
+    width: 100%;
+}
+footer .container .footer-container p {
+    width: 400px;
+    margin-top: 40px;
+}
+footer .container .rede-sociais ul {
+    list-style: none;
+}
+footer .container .rede-sociais li {
+    display: flex;
+}
+
+footer .container .rede-sociais img {
+    height: 30px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+footer  .container .rede-sociais p a {
+    color: #dadde0;
+    text-decoration: none;
+    padding: 8px;
+}
+footer  .global-container {
+    background-color: rgba(0, 0, 0, 0.665);
+    padding: 20px;
+    color: #dadde0;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+footer .global-container img {
+    height: 14px;
+}
